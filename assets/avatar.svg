@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-label="Avatar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#221D18"/>
+      <stop offset="100%" stop-color="#12100E"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#F4EFE6" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="420" height="420" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="420" height="420" fill="url(#bg)"/>
+    <rect width="420" height="420" fill="url(#grid)"/>
+
+    <!-- Silueta: cabeza y hombros -->
+    <circle cx="210" cy="168" r="60" fill="none" stroke="#E3A63C" stroke-width="3"/>
+    <path d="M104 340c0-58 47-105 106-105s106 47 106 105"
+          fill="none" stroke="#E3A63C" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Motivo de datos: cilindro apilado -->
+    <g stroke="#6FBFA5" stroke-width="2.5" fill="none" opacity="0.75">
+      <ellipse cx="210" cy="168" rx="60" ry="17"/>
+      <ellipse cx="210" cy="196" rx="60" ry="17"/>
+    </g>
+
+    <!-- Marcas de esquina -->
+    <g stroke="#F4EFE6" stroke-opacity="0.28" stroke-width="2">
+      <path d="M26 54V26h28M366 26h28v28M394 366v28h-28M54 394H26v-28"/>
+    </g>
+  </g>
+</svg>

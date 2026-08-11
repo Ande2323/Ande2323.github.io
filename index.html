@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ande2323 — E-portafolio | Bases de Datos 1</title>
+<meta name="description" content="E-portafolio académico de Bases de Datos 1. Presentación, evidencias de modelado, normalización, SQL y proyecto final.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__brand" href="#inicio">
+    <span class="nav__dot" aria-hidden="true"></span>
+    Ande2323
+  </a>
+  <nav class="nav__links" aria-label="Navegación principal">
+    <a href="#inicio">Inicio</a>
+    <a href="#presentacion">Presentación</a>
+    <a href="#evidencias">Evidencias</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ══════════════ INICIO ══════════════ -->
+  <section id="inicio" class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow reveal" style="--d:0ms">Bases de Datos 1 · Semestre 2026-2</p>
+        <h1 class="reveal" style="--d:80ms">
+          <!-- EDITA: tu nombre completo -->
+          Tu Nombre<br>
+          <em>Aquí</em>
+        </h1>
+        <p class="hero__lead reveal" style="--d:160ms">
+          <!-- EDITA: una línea sobre ti -->
+          Estudiante de Ingeniería. Este es mi e-portafolio: aquí se acumulan,
+          semana a semana, las evidencias de lo que voy aprendiendo sobre datos.
+        </p>
+        <div class="hero__cta reveal" style="--d:240ms">
+          <a class="btn btn--solid" href="#presentacion">Ver presentación</a>
+          <a class="btn btn--ghost" href="#evidencias">Evidencias</a>
+        </div>
+      </div>
+
+      <figure class="hero__photo reveal" style="--d:200ms">
+        <!-- EDITA: reemplaza el src por tu foto (assets/foto.jpg) -->
+        <img src="assets/avatar.svg" alt="Foto de perfil" width="420" height="420">
+        <figcaption>
+          <span class="mono">perfil</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ══════════════ PRESENTACIÓN ══════════════ -->
+  <section id="presentacion" class="section">
+    <div class="section__head">
+      <span class="section__num mono">01</span>
+      <h2>Presentación</h2>
+      <span class="section__rule" aria-hidden="true"></span>
+    </div>
+
+    <div class="pres">
+
+      <div class="pres__video">
+        <!--
+          ═══ CUANDO TENGAS EL VIDEO ═══
+          Borra todo el bloque <div class="videobox"> … </div>
+          y descomenta este iframe, cambiando ID_DEL_VIDEO
+          por el id de tu video de YouTube:
+
+          <div class="embed">
+            <iframe src="https://www.youtube-nocookie.com/embed/ID_DEL_VIDEO"
+                    title="Video de presentación"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+        -->
+        <div class="videobox">
+          <div class="videobox__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+              <polygon points="9,7 18,12 9,17" stroke-linejoin="round"></polygon>
+              <rect x="2" y="3" width="20" height="18" rx="2.5"></rect>
+            </svg>
+          </div>
+          <p class="videobox__title">Video de presentación</p>
+          <p class="videobox__note mono">pendiente de publicar</p>
+        </div>
+      </div>
+
+      <!-- Las cuatro respuestas, como un registro de una tabla -->
+      <dl class="record">
+        <div class="record__row">
+          <dt class="mono">cómo_me_llaman</dt>
+          <!-- EDITA -->
+          <dd>Pendiente</dd>
+        </div>
+        <div class="record__row">
+          <dt class="mono">sobre_mí</dt>
+          <!-- EDITA: hobby, música, deporte, algo que te represente -->
+          <dd>Pendiente</dd>
+        </div>
+        <div class="record__row">
+          <dt class="mono">por_qué_bases_de_datos</dt>
+          <!-- EDITA: una razón concreta -->
+          <dd>Pendiente</dd>
+        </div>
+        <div class="record__row record__row--accent">
+          <dt class="mono">este_semestre</dt>
+          <!-- EDITA: completa la frase -->
+          <dd><span class="quote">Este semestre quiero demostrar que…</span></dd>
+        </div>
+      </dl>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ EVIDENCIAS ══════════════ -->
+  <section id="evidencias" class="section">
+    <div class="section__head">
+      <span class="section__num mono">02</span>
+      <h2>Evidencias</h2>
+      <span class="section__rule" aria-hidden="true"></span>
+    </div>
+
+    <p class="section__intro">
+      Cada categoría se irá llenando con los entregables del curso.
+    </p>
+
+    <ul class="cards">
+
+      <li class="card">
+        <span class="card__tag mono">01 · modelado</span>
+        <h3>Modelado</h3>
+        <p>Diagramas entidad-relación, cardinalidades y diseño conceptual.</p>
+        <span class="pill">Próximamente</span>
+      </li>
+
+      <li class="card">
+        <span class="card__tag mono">02 · normalización</span>
+        <h3>Normalización</h3>
+        <p>Formas normales, dependencias funcionales y refinamiento de esquemas.</p>
+        <span class="pill">Próximamente</span>
+      </li>
+
+      <li class="card">
+        <span class="card__tag mono">03 · sql</span>
+        <h3>SQL</h3>
+        <p>Consultas, joins, subconsultas, funciones de agregación y vistas.</p>
+        <span class="pill">Próximamente</span>
+      </li>
+
+      <li class="card">
+        <span class="card__tag mono">04 · proyecto</span>
+        <h3>Proyecto</h3>
+        <p>Proyecto integrador del curso, de la idea a la base de datos funcionando.</p>
+        <span class="pill">Próximamente</span>
+      </li>
+
+    </ul>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span class="mono">© 2026 · Ande2323</span>
+  <a class="mono" href="https://github.com/Ande2323">github.com/Ande2323</a>
+</footer>
+
+</body>
+</html>
