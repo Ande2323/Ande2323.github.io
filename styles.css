@@ -317,45 +317,21 @@ body {
   border: 0;
 }
 
-/* Marcador mientras no hay video */
-.videobox {
-  aspect-ratio: 16 / 9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  text-align: center;
-  border: 1px dashed var(--line);
-  border-radius: 3px;
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 12px,
-      rgba(244, 239, 230, 0.022) 12px 24px
-    ),
-    var(--ink-2);
-}
-
-.videobox__icon {
-  width: 46px;
-  height: 46px;
-  color: var(--amber);
-  opacity: 0.85;
-}
-
-.videobox__icon svg { width: 100%; height: 100%; }
-
-.videobox__title {
-  font-family: var(--display);
-  font-size: 1.3rem;
-  margin: 0.3rem 0 0;
-}
-
-.videobox__note {
+/* Enlace de respaldo, por si el iframe no carga */
+.pres__fallback {
+  margin: 0.85rem 0 0;
+  font-size: 0.85rem;
   color: var(--muted);
-  margin: 0;
 }
+
+.pres__fallback a {
+  color: var(--amber);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(227, 166, 60, 0.4);
+  transition: border-color 0.25s ease;
+}
+
+.pres__fallback a:hover { border-color: var(--amber); }
 
 /* Las respuestas, presentadas como un registro de tabla */
 .record {
