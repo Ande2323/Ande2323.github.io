@@ -230,6 +230,7 @@ body {
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center 25%; /* sube el encuadre para centrar el rostro */
   border-radius: 3px;
   border: 1px solid var(--line);
   filter: saturate(0.95);
@@ -239,7 +240,8 @@ body {
 .hero__photo::before {
   content: "";
   position: absolute;
-  inset: 14px -14px -14px 14px;
+  inset: 14px -14px auto 14px;
+  aspect-ratio: 1 / 1;
   border: 1px solid var(--amber);
   border-radius: 3px;
   opacity: 0.45;
