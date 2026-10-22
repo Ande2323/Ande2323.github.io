@@ -54,10 +54,10 @@ es público.
 
 ### Convertir un documento Markdown en página web
 
-Las evidencias en `.md` se publican como página con estilos propios. El script
-que generó `evidencias/modelado/taller-eer-puerto/index.html` usa
-[marked](https://www.npmjs.com/package/marked); los estilos ya están en
-`styles.css` bajo la clase `.doc`.
+Una evidencia en `.md` puede publicarse como página con los estilos del sitio:
+se convierte con [marked](https://www.npmjs.com/package/marked) y se guarda como
+`index.html` dentro de la carpeta de esa evidencia. Los estilos de prosa y
+tablas ya están en `styles.css` bajo la clase `.doc`.
 
 ## Ver el sitio en local
 
