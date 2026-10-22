@@ -1,0 +1,61 @@
+cod_proyecto;nom_proyecto;cod_empleado;nom_empleado;profesion;vlr_hora;hrs_asignadas;;Completa:;(cod_proyecto, cod_empleado) -> hrs_asignadas
+1010;ERP;2010;Sandra;Ingeniero;100000;20;;Parcial:;cod_proyecto -> nom_proyecto
+1010;ERP;2020;Claudia;Analista;50000;10;;Parcial:;cod_empleado-> nom_empleado, profesion
+1010;ERP;2030;Yamile;Programador;20000;10;;Transitividad:;profesion -> vlr_hora
+1020;CRM;2010;Sandra;Ingeniero;100000;10;;;
+1020;CRM;2020;Claudia;Analista;50000;15;;;
+1020;CRM;2030;Yamile;Programador;20000;20;;;
+1030;BI;2010;Sandra;Ingeniero;100000;10;;;
+1030;BI;2020;Claudia;Analista;50000;15;;;
+1030;BI;2030;Yamile;Programador;20000;10;;;
+1010;ERP;2040;Andrea;Ingeniero;100000;40;;;
+;;;;;;;;;
+a. La tabla se encuentra en 1FN, porque todos los atributos son atomicos. No hay ninguno que sea una lista o separable.;;;;;;;;;
+;;;;;;;;;
+b. ;;;;;;;;;
+b.1 Transformacion a 2FN:;;;;;;;;;
+;;;;;;;;;
+;PROYECTO;;;EMPLEADO;;;;;
+;cod_proyecto;nom_proyecto;;cod_empleado;nom_empleado;profesion;vlr_hora;;
+;1010;ERP;;2010;Sandra;Ingeniero;100000;;Se observo que habian grupos repetidos en los atributos cod_Proyecto y Nom_Proyecto por ello los separamos en diferentes tablas.Tambien nos dimos cuenta que hrs_Asignadas depende completamente de cod_Proyecto y nom_proyecto por ello se separaron las tablas y se les asigno su PF 
+;1020;CRM;;2020;Claudia;Analista;50000;;
+;1030;BI;;2030;Yamile;Programador;20000;;
+;;;;2040;Andrea;Ingeniero;100000;;
+;;;;;;;;;
+;PROYECTO_EMPLEADO;;;;;;;;
+;cod_proyecto;cod_empleado;hrs_asignadas;;;;;;
+;1010;2010;20;;;;;;
+;1010;2020;10;;;;;;
+;1010;2030;10;;;;;;
+;1020;2010;10;;;;;;
+;1020;2020;15;;;;;;
+;1020;2030;20;;;;;;
+;1030;2010;10;;;;;;
+;1030;2020;15;;;;;;
+;1030;2030;10;;;;;;
+;1010;2040;40;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+b.2 Transformacion a 3FN:;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;PROYECTO;;;EMPLEADO;;;;;
+;cod_proyecto;nom_proyecto;;cod_empleado;nom_empleado;profesion;;;
+;1010;ERP;;2010;Sandra;Ingeniero;;;
+;1020;CRM;;2020;Claudia;Analista;;;
+;1030;BI;;2030;Yamile;Programador;;;
+;;;;2040;Andrea;Ingeniero;;;
+;;;;;;;;;
+;PROYECTO_EMPLEADO;;;;PAGO;;;;
+;cod_proyecto;cod_empleado;hrs_asignadas;;profesion;vlr_hora;;;
+;1010;2010;20;;Ingeniero;100000;;;
+;1010;2020;10;;Analista;50000;;;
+;1010;2030;10;;Programador;20000;;;
+;1020;2010;10;;;;;;
+;1020;2020;15;;;;;;
+;1020;2030;20;;;;;;
+;1030;2010;10;;;;;;
+;1030;2020;15;;;;;;
+;1030;2030;10;;;;;;
+;1010;2040;40;;;;;;

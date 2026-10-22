@@ -1,0 +1,87 @@
+1|AC Milan|Italia|Milán|Serie A|1899
+2|Ajax|Holanda|Ámsterdam|Eredivisie|1900
+3|Al Hilal|Arabia Saudita|Riad|Liga Profesional Saudí|1957
+4|Al Ittihad|Arabia Saudita|Yeda|Liga Profesional Saudí|1927
+5|Al Nassr|Arabia Saudita|Riad|Liga Profesional Saudí|1955
+6|Alianza Lima|Perú|Lima|Liga 1|1901
+7|América de Cali|Colombia|Cali|Liga BetPlay|1927
+8|Arsenal|Inglaterra|Londres|Premier League|1886
+9|Atalanta|Italia|Bérgamo|Serie A|1907
+10|Atlético Nacional|Colombia|Medellín|Liga BetPlay|1947
+11|Atlético de Madrid|España|Madrid|LaLiga|1903
+12|Barcelona|España|Barcelona|LaLiga|1899
+13|Barcelona SC|Ecuador|Guayaquil|Liga Pro|1925
+14|Bayer Leverkusen|Alemania|Leverkusen|Bundesliga|1904
+15|Bayern Múnich|Alemania|Múnich|Bundesliga|1900
+16|Benfica|Portugal|Lisboa|Primeira Liga|1904
+17|Boca Juniors|Argentina|Buenos Aires|Liga Profesional|1905
+18|Bolívar|Bolivia|La Paz|División Profesional|1925
+19|Borussia Dortmund|Alemania|Dortmund|Bundesliga|1909
+20|Celtic|Escocia|Glasgow|Premiership|1887
+21|Cerro Porteño|Paraguay|Asunción|Primera Paraguaya|1912
+22|Chelsea|Inglaterra|Londres|Premier League|1905
+23|Chivas|México|Guadalajara|Liga MX|1906
+24|Club América|México|Ciudad de México|Liga MX|1916
+25|Colo Colo|Chile|Santiago|Primera Chilena|1925
+26|Corinthians|Brasil|São Paulo|Brasileirao|1910
+27|Cruz Azul|México|Ciudad de México|Liga MX|1927
+28|Deportivo Cali|Colombia|Cali|Liga BetPlay|1912
+29|Eintracht Frankfurt|Alemania|Fráncfort|Bundesliga|1899
+30|Emelec|Ecuador|Guayaquil|Liga Pro|1929
+31|Feyenoord|Holanda|Róterdam|Eredivisie|1908
+32|Fiorentina|Italia|Florencia|Serie A|1926
+33|Flamengo|Brasil|Río de Janeiro|Brasileirao|1895
+34|Gremio|Brasil|Porto Alegre|Brasileirao|1903
+35|Independiente|Argentina|Avellaneda|Liga Profesional|1905
+36|Inter Miami|Estados Unidos|Miami|MLS|2018
+37|Inter de Milán|Italia|Milán|Serie A|1908
+38|Internacional|Brasil|Porto Alegre|Brasileirao|1909
+39|Junior|Colombia|Barranquilla|Liga BetPlay|1924
+40|Juventus|Italia|Turín|Serie A|1897
+41|LA Galaxy|Estados Unidos|Los Ángeles|MLS|1994
+42|LAFC|Estados Unidos|Los Ángeles|MLS|2014
+43|LDU Quito|Ecuador|Quito|Liga Pro|1930
+44|Lazio|Italia|Roma|Serie A|1900
+45|Lille|Francia|Lille|Ligue 1|1944
+46|Liverpool|Inglaterra|Liverpool|Premier League|1892
+47|Manchester City|Inglaterra|Mánchester|Premier League|1880
+48|Manchester United|Inglaterra|Mánchester|Premier League|1878
+49|Millonarios|Colombia|Bogotá|Liga BetPlay|1946
+50|Monterrey|México|Monterrey|Liga MX|1945
+51|Mónaco|Francia|Mónaco|Ligue 1|1924
+52|Nacional de Montevideo|Uruguay|Montevideo|Primera Uruguaya|1899
+53|Napoli|Italia|Nápoles|Serie A|1926
+54|Newcastle|Inglaterra|Newcastle|Premier League|1892
+55|Niza|Francia|Niza|Ligue 1|1904
+56|Olimpia|Paraguay|Asunción|Primera Paraguaya|1902
+57|Olympique de Lyon|Francia|Lyon|Ligue 1|1950
+58|Olympique de Marsella|Francia|Marsella|Ligue 1|1899
+59|PSG|Francia|París|Ligue 1|1970
+60|PSV|Holanda|Eindhoven|Eredivisie|1913
+61|Palmeiras|Brasil|São Paulo|Brasileirao|1914
+62|Peñarol|Uruguay|Montevideo|Primera Uruguaya|1891
+63|Porto|Portugal|Oporto|Primeira Liga|1893
+64|Pumas UNAM|México|Ciudad de México|Liga MX|1954
+65|RB Leipzig|Alemania|Leipzig|Bundesliga|2009
+66|Racing Club|Argentina|Avellaneda|Liga Profesional|1903
+67|Rangers|Escocia|Glasgow|Premiership|1872
+68|Real Betis|España|Sevilla|LaLiga|1907
+69|Real Madrid|España|Madrid|LaLiga|1902
+70|River Plate|Argentina|Buenos Aires|Liga Profesional|1901
+71|Roma|Italia|Roma|Serie A|1927
+72|San Lorenzo|Argentina|Buenos Aires|Liga Profesional|1908
+73|Santa Fe|Colombia|Bogotá|Liga BetPlay|1941
+74|Santos|Brasil|Santos|Brasileirao|1912
+75|Seattle Sounders|Estados Unidos|Seattle|MLS|2007
+76|Sevilla|España|Sevilla|LaLiga|1890
+77|Sporting de Lisboa|Portugal|Lisboa|Primeira Liga|1906
+78|São Paulo|Brasil|São Paulo|Brasileirao|1930
+79|The Strongest|Bolivia|La Paz|División Profesional|1908
+80|Tigres UANL|México|Monterrey|Liga MX|1960
+81|Toluca|México|Toluca|Liga MX|1917
+82|Tottenham|Inglaterra|Londres|Premier League|1882
+83|Universidad de Chile|Chile|Santiago|Primera Chilena|1927
+84|Universitario|Perú|Lima|Liga 1|1924
+85|Valencia|España|Valencia|LaLiga|1919
+86|Villarreal|España|Villarreal|LaLiga|1923
+87|Vélez Sarsfield|Argentina|Buenos Aires|Liga Profesional|1910

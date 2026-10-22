@@ -370,62 +370,167 @@ body {
 
 /* ─────────────── EVIDENCIAS ─────────────── */
 
-.cards {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1px;
-  background: var(--line);
-  border: 1px solid var(--line);
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.card {
-  position: relative;
+/* Menú de categorías */
+.chips {
   display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  padding: 1.7rem 1.5rem 1.5rem;
-  background: var(--ink);
-  transition: background 0.3s ease;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 2.8rem;
 }
 
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--amber);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
 
-.card:hover { background: var(--ink-2); }
-.card:hover::before { transform: scaleX(1); }
+.chip:hover { color: var(--cream); border-color: var(--amber); }
 
-.card__tag { color: var(--muted); }
+.chip__n {
+  font-size: 0.65rem;
+  color: var(--amber);
+  letter-spacing: 0;
+}
 
-.card h3 {
+/* Grupo por categoría */
+.evgroup { margin-bottom: 3.2rem; }
+
+.evgroup__title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
   font-family: var(--display);
   font-weight: 600;
-  font-size: 1.4rem;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  letter-spacing: -0.015em;
+  margin: 0 0 1.3rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.evgroup__num { color: var(--amber); }
+
+.evgroup__vacio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  color: var(--muted);
+  font-size: 0.92rem;
   margin: 0;
 }
 
-.card p {
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.55;
-  margin: 0 0 0.9rem;
-  flex: 1;
+/* Una evidencia */
+.ev {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.6rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line-soft);
 }
+
+.ev:last-child { border-bottom: 0; }
+
+.ev__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: var(--muted);
+  padding-top: 0.3rem;
+}
+
+.tag {
+  padding: 0.2rem 0.55rem;
+  font-size: 0.6rem;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
+.tag--grupal { color: var(--teal); border-color: rgba(111, 191, 165, 0.35); }
+
+.ev__body h4 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.28rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.6rem;
+}
+
+.ev--destacada .ev__body h4 { color: var(--amber); }
+
+.ev__body p {
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.62;
+  margin: 0 0 0.8rem;
+  max-width: 68ch;
+}
+
+.ev__body code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  color: var(--cream);
+  background: var(--ink-3);
+  padding: 0.1em 0.38em;
+  border-radius: 2px;
+}
+
+.ev__dato { color: var(--amber) !important; opacity: 0.8; }
+.ev__nota { font-style: italic; font-size: 0.87rem !important; }
+
+/* Archivos de cada evidencia */
+.files {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+}
+
+.file {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem 0.35rem 0.35rem;
+  font-size: 0.82rem;
+  color: var(--cream);
+  text-decoration: none;
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+}
+
+.file:hover {
+  background: var(--ink-3);
+  border-color: var(--amber);
+  transform: translateY(-1px);
+}
+
+.file__ext {
+  padding: 0.18rem 0.4rem;
+  font-size: 0.58rem;
+  color: var(--ink);
+  background: var(--muted);
+  border-radius: 2px;
+}
+
+.file--main .file__ext { background: var(--amber); }
+.file--main { border-color: rgba(227, 166, 60, 0.4); }
 
 .pill {
   align-self: flex-start;
@@ -462,6 +567,117 @@ body {
 
 .foot a:hover { color: var(--amber); }
 
+/* ─────────────── PÁGINA DE DOCUMENTO (evidencias) ─────────────── */
+
+.doc {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 7vw, 4.5rem) var(--gutter);
+}
+
+.doc h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(2rem, 5.5vw, 3.1rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.4rem;
+}
+
+.doc h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+  letter-spacing: -0.015em;
+  margin: 2.8rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.doc h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.22rem;
+  margin: 2rem 0 0.7rem;
+  color: var(--amber);
+}
+
+.doc h4 {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 1.6rem 0 0.6rem;
+}
+
+.doc p { margin: 0 0 1.1rem; }
+
+.doc strong { color: var(--cream); font-weight: 600; }
+.doc em { color: var(--muted); }
+
+.doc a { color: var(--amber); text-decoration: none; border-bottom: 1px solid rgba(227, 166, 60, 0.35); }
+.doc a:hover { border-color: var(--amber); }
+
+.doc ul, .doc ol { margin: 0 0 1.2rem; padding-left: 1.3rem; }
+.doc li { margin-bottom: 0.4rem; }
+.doc li::marker { color: var(--amber); }
+
+.doc code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  color: var(--cream);
+  background: var(--ink-3);
+  padding: 0.12em 0.4em;
+  border-radius: 2px;
+}
+
+.doc hr {
+  border: 0;
+  border-top: 1px solid var(--line-soft);
+  margin: 2.6rem 0;
+}
+
+.doc blockquote {
+  margin: 0 0 1.2rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--amber);
+  color: var(--muted);
+}
+
+/* Tablas del documento: el elemento central de esta evidencia */
+.doc table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.8rem;
+  font-size: 0.89rem;
+}
+
+.doc thead th {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-align: left;
+  padding: 0.65rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.doc tbody td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+  color: var(--muted);
+}
+
+.doc tbody tr:hover td { background: rgba(244, 239, 230, 0.022); }
+.doc tbody td:first-child { color: var(--cream); }
+
+.doc .tabla-scroll { overflow-x: auto; }
+
 /* ─────────────── ANIMACIÓN DE ENTRADA ─────────────── */
 
 .reveal {
@@ -497,6 +713,13 @@ body {
   .hero__inner { grid-template-columns: 1fr; }
   .hero__photo { order: -1; max-width: 260px; }
   .pres { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px) {
+  .ev { grid-template-columns: 1fr; gap: 0.75rem; }
+  .ev__meta { flex-direction: row; align-items: center; padding-top: 0; }
+  .doc table { font-size: 0.82rem; }
+  .doc thead th, .doc tbody td { padding: 0.5rem 0.55rem; }
 }
 
 @media (max-width: 560px) {

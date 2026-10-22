@@ -1,0 +1,56 @@
+1|Bolivia|CONMEBOL|52|0
+2|Chile|CONMEBOL|49|0
+3|Costa Rica|CONCACAF|26|0
+4|Mali|CAF|77|0
+5|Escocia|UEFA|23|0
+6|Eslovaquia|UEFA|30|0
+7|Marruecos|CAF|32|0
+8|Italia|UEFA|18|4
+9|Corea del Sur|AFC|98|0
+10|Perú|CONMEBOL|12|0
+11|Costa de Marfil|CAF|33|0
+12|Noruega|UEFA|94|0
+13|Honduras|CONCACAF|50|0
+14|Venezuela|CONMEBOL|68|0
+15|Argelia|CAF|88|0
+16|Paraguay|CONMEBOL|90|0
+17|Camerún|CAF|69|0
+18|Estados Unidos|CONCACAF|12|0
+19|Polonia|UEFA|80|0
+20|Bélgica|UEFA|63|0
+21|Holanda|UEFA|26|0
+22|Nigeria|CAF|54|0
+23|Ecuador|CONMEBOL|93|0
+24|Argentina|CONMEBOL|79|3
+25|Suecia|UEFA|76|0
+26|Egipto|CAF|28|0
+27|Arabia Saudita|AFC|102|0
+28|Irán|AFC|116|0
+29|República Checa|UEFA|101|0
+30|Japón|AFC|48|0
+31|Australia|AFC|106|0
+32|Guatemala|CONCACAF|50|0
+33|Portugal|UEFA|111|0
+34|España|UEFA|88|1
+35|Túnez|CAF|28|0
+36|Ghana|CAF|20|0
+37|Dinamarca|UEFA|60|0
+38|Senegal|CAF|85|0
+39|Colombia|CONMEBOL|23|0
+40|Alemania|UEFA|109|4
+41|Serbia|UEFA|73|0
+42|Inglaterra|UEFA|44|1
+43|México|CONCACAF|11|0
+44|Suiza|UEFA|92|0
+45|Brasil|CONMEBOL|68|5
+46|Francia|UEFA|87|2
+47|Austria|UEFA|100|0
+48|Panamá|CONCACAF|12|0
+49|Uruguay|CONMEBOL|61|2
+50|Croacia|UEFA|41|0
+51|Canadá|CONCACAF|52|0
+52|China|AFC|6|0
+53|Finlandia|UEFA|35|0
+54|Gales|UEFA|72|0
+55|Irlanda|UEFA|1|0
+56|Nicaragua|CONCACAF|55|0

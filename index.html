@@ -128,40 +128,181 @@
     </div>
 
     <p class="section__intro">
-      Cada categoría se irá llenando con los entregables del curso.
+      Los trabajos del curso, en el orden en que se vieron. Cada entrada enlaza
+      los archivos originales.
     </p>
 
-    <ul class="cards">
+    <nav class="chips" aria-label="Categorías de evidencias">
+      <a class="chip" href="#ev-planos">Archivos Planos <span class="chip__n mono">1</span></a>
+      <a class="chip" href="#ev-modelado">Modelado <span class="chip__n mono">3</span></a>
+      <a class="chip" href="#ev-normalizacion">Normalización <span class="chip__n mono">2</span></a>
+      <a class="chip" href="#ev-sql">SQL <span class="chip__n mono">—</span></a>
+      <a class="chip" href="#ev-proyecto">Proyecto <span class="chip__n mono">—</span></a>
+    </nav>
 
-      <li class="card">
-        <span class="card__tag mono">01 · modelado</span>
-        <h3>Modelado</h3>
-        <p>Diagramas entidad-relación, cardinalidades y diseño conceptual.</p>
-        <span class="pill">Próximamente</span>
-      </li>
+    <!-- ── Archivos planos ── -->
+    <div class="evgroup" id="ev-planos">
+      <h3 class="evgroup__title"><span class="evgroup__num mono">01</span> Archivos Planos</h3>
 
-      <li class="card">
-        <span class="card__tag mono">02 · normalización</span>
-        <h3>Normalización</h3>
-        <p>Formas normales, dependencias funcionales y refinamiento de esquemas.</p>
-        <span class="pill">Próximamente</span>
-      </li>
+      <article class="ev">
+        <div class="ev__meta">
+          <span class="mono">ago · 2026</span>
+          <span class="tag mono">Individual</span>
+        </div>
+        <div class="ev__body">
+          <h4>JugadoresFutbol — persistencia sin motor de base de datos</h4>
+          <p>
+            Aplicación Java de consola que gestiona jugadores, selecciones, equipos y
+            partidos guardando todo en archivos de texto delimitados por <code>|</code>,
+            sin ningún gestor de base de datos. Implementa el CRUD completo sobre las
+            cuatro entidades, asignación de identificadores, control de integridad
+            referencial y <em>búsquedas relacionadas</em> que resuelven a mano los cruces
+            entre archivos: la ficha de un jugador, los partidos de su selección, los
+            jugadores de un equipo. En la práctica, emular con código lo que después
+            resuelve un motor relacional.
+          </p>
+          <p class="ev__dato mono">5.001 jugadores · 399 partidos · 86 equipos · 55 selecciones</p>
+          <ul class="files">
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/App.java"><span class="file__ext mono">java</span>App.java</a></li>
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/Vista.java"><span class="file__ext mono">java</span>Vista.java</a></li>
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/jugadores.txt"><span class="file__ext mono">txt</span>jugadores</a></li>
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/partidos.txt"><span class="file__ext mono">txt</span>partidos</a></li>
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/equipos.txt"><span class="file__ext mono">txt</span>equipos</a></li>
+            <li><a class="file" href="evidencias/archivos-planos/jugadores-futbol/selecciones.txt"><span class="file__ext mono">txt</span>selecciones</a></li>
+          </ul>
+        </div>
+      </article>
+    </div>
 
-      <li class="card">
-        <span class="card__tag mono">03 · sql</span>
-        <h3>SQL</h3>
-        <p>Consultas, joins, subconsultas, funciones de agregación y vistas.</p>
-        <span class="pill">Próximamente</span>
-      </li>
+    <!-- ── Modelado ── -->
+    <div class="evgroup" id="ev-modelado">
+      <h3 class="evgroup__title"><span class="evgroup__num mono">02</span> Modelado</h3>
 
-      <li class="card">
-        <span class="card__tag mono">04 · proyecto</span>
-        <h3>Proyecto</h3>
-        <p>Proyecto integrador del curso, de la idea a la base de datos funcionando.</p>
-        <span class="pill">Próximamente</span>
-      </li>
+      <article class="ev">
+        <div class="ev__meta">
+          <span class="mono">ago · 2026</span>
+          <span class="tag mono">Individual</span>
+        </div>
+        <div class="ev__body">
+          <h4>Apuntes del Modelo Entidad-Relación</h4>
+          <p>
+            Mis apuntes del tema: entidades, atributos simples, compuestos,
+            multivaluados y derivados, cardinalidades y participación.
+          </p>
+          <ul class="files">
+            <li><a class="file" href="evidencias/modelado/apuntes-mer/Apuntes_MER.docx"><span class="file__ext mono">docx</span>Apuntes_MER</a></li>
+          </ul>
+        </div>
+      </article>
 
-    </ul>
+      <article class="ev ev--destacada">
+        <div class="ev__meta">
+          <span class="mono">sep · 2026</span>
+          <span class="tag mono">Individual</span>
+        </div>
+        <div class="ev__body">
+          <h4>Taller — Modelo EER de un dominio portuario</h4>
+          <p>
+            Modelo entidad-relación extendido para la operación de un puerto, con
+            documento de especificación que justifica cada decisión. Incluye entidad
+            débil con relación identificadora (<code>RECALADA</code>), atributo a la vez
+            multivaluado y compuesto, dos relaciones recursivas con roles, una relación
+            ternaria que no es descomponible en binarias, una agregación sobre la
+            relación <code>EMBARQUE</code> y una especialización parcial y solapada.
+            El documento cierra declarando los seis supuestos que el enunciado dejaba
+            abiertos.
+          </p>
+          <ul class="files">
+            <li><a class="file file--main" href="evidencias/modelado/taller-eer-puerto/"><span class="file__ext mono">web</span>Leer la especificación</a></li>
+            <li><a class="file" href="https://viewer.diagrams.net/?url=https%3A%2F%2Fande2323.github.io%2Fevidencias%2Fmodelado%2Ftaller-eer-puerto%2FER_Puerto_Chen.drawio" target="_blank" rel="noopener"><span class="file__ext mono">ver</span>Diagrama en draw.io</a></li>
+            <li><a class="file" href="evidencias/modelado/taller-eer-puerto/ER_Puerto_Chen.drawio"><span class="file__ext mono">drawio</span>Archivo fuente</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="ev">
+        <div class="ev__meta">
+          <span class="mono">sep · 2026</span>
+          <span class="tag tag--grupal mono">Grupal</span>
+        </div>
+        <div class="ev__body">
+          <h4>Taller 1 — Reglas de transformación MER → Relacional</h4>
+          <p>
+            Aplicación de las reglas que convierten un modelo entidad-relación en un
+            esquema relacional, y construcción del modelo resultante en Oracle SQL
+            Data Modeler.
+          </p>
+          <p class="ev__nota">Trabajo en grupo de tres personas.</p>
+          <ul class="files">
+            <li><a class="file" href="evidencias/modelado/taller-reglas-transformacion/Taller1_BD1_Reglas_de_Transformacion_PR_GV_GC.pdf"><span class="file__ext mono">pdf</span>Taller resuelto</a></li>
+            <li><a class="file" href="evidencias/modelado/taller-reglas-transformacion/TRANSFORMACION_V1_2026-2.zip"><span class="file__ext mono">zip</span>Proyecto Data Modeler</a></li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <!-- ── Normalización ── -->
+    <div class="evgroup" id="ev-normalizacion">
+      <h3 class="evgroup__title"><span class="evgroup__num mono">03</span> Normalización</h3>
+
+      <article class="ev">
+        <div class="ev__meta">
+          <span class="mono">sep · 2026</span>
+          <span class="tag mono">Individual</span>
+        </div>
+        <div class="ev__body">
+          <h4>Ejercicio — Dependencias funcionales y paso a 3FN</h4>
+          <p>
+            Tabla de proyectos y empleados llevada de 1FN a 3FN paso a paso:
+            identificación de la dependencia completa, las dos parciales y la
+            transitiva (<code>profesion → vlr_hora</code>), y el esquema resultante
+            en cada forma normal.
+          </p>
+          <ul class="files">
+            <li><a class="file" href="evidencias/normalizacion/ejercicio-dependencias/NormalizacionEjercicio.csv"><span class="file__ext mono">csv</span>Ejercicio resuelto</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="ev">
+        <div class="ev__meta">
+          <span class="mono">sep · 2026</span>
+          <span class="tag mono">Individual</span>
+        </div>
+        <div class="ev__body">
+          <h4>Taller de Normalización — casos Hospital y Pedidos</h4>
+          <p>
+            Dos casos analizados a fondo. En el de pedidos, un esquema que parte de 0FN
+            porque guarda varios productos en una misma celda: se identifican las
+            dependencias, se explica el daño concreto al negocio —reportes de ventas por
+            sector que muestran cifras falsas tras una actualización parcial— y se
+            normaliza hasta 3FN justificando cada paso. En el del hospital, la
+            clasificación de cada dependencia funcional y por qué viola 2FN o 3FN.
+          </p>
+          <ul class="files">
+            <li><a class="file" href="evidencias/normalizacion/taller-caso2/Caso2_Taller_Normalizacion.docx"><span class="file__ext mono">docx</span>Caso Pedidos</a></li>
+            <li><a class="file" href="evidencias/normalizacion/taller-caso2/Hospital_Dependencias.csv"><span class="file__ext mono">csv</span>Caso Hospital</a></li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <!-- ── Pendientes ── -->
+    <div class="evgroup" id="ev-sql">
+      <h3 class="evgroup__title"><span class="evgroup__num mono">04</span> SQL</h3>
+      <p class="evgroup__vacio">
+        Consultas, joins, subconsultas y vistas.
+        <span class="pill">En curso</span>
+      </p>
+    </div>
+
+    <div class="evgroup" id="ev-proyecto">
+      <h3 class="evgroup__title"><span class="evgroup__num mono">05</span> Proyecto</h3>
+      <p class="evgroup__vacio">
+        Proyecto integrador del curso, de la idea a la base de datos funcionando.
+        <span class="pill">En curso</span>
+      </p>
+    </div>
   </section>
 
 </main>

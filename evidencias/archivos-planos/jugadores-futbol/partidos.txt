@@ -1,0 +1,400 @@
+1|18|39|2|1|2018-10-17|Anfield|Eliminatorias
+2|50|14|3|2|2026-01-24|Maracaná|Octavos de final
+3|24|45|1|1|2021-07-09|Azteca|Semifinal
+4|34|33|4|2|2025-09-14|Allianz Arena|Eliminatorias
+5|43|10|2|0|2022-10-25|Azteca|Fase de grupos
+6|2|1|1|3|2024-12-22|El Campín|Eliminatorias
+7|46|40|3|2|2024-02-14|Nacional de Lima|Octavos de final
+8|8|21|0|1|2022-05-10|Anfield|Semifinal
+9|49|16|2|2|2025-06-06|Maracaná|Semifinal
+10|23|39|1|0|2020-04-09|Anfield|Amistoso
+11|25|12|3|1|2020-10-02|Maracaná|Fase de grupos
+12|20|44|2|1|2025-05-09|La Bombonera|Cuartos de final
+13|30|9|1|1|2020-04-04|Mineirão|Octavos de final
+14|31|27|2|0|2025-04-19|Azteca|Octavos de final
+15|41|50|0|2|2018-03-10|Mineirão|Amistoso
+16|47|19|1|1|2018-02-17|Mineirão|Eliminatorias
+17|3|32|2|1|2020-10-11|San Siro|Fase de grupos
+18|48|13|3|2|2020-03-24|El Campín|Cuartos de final
+19|22|36|1|2|2019-02-28|Monumental|Amistoso
+20|38|11|2|2|2022-07-14|Monumental|Semifinal
+21|7|15|1|0|2025-07-05|Metropolitano de Barranquilla|Cuartos de final
+22|35|26|2|1|2021-12-11|Santiago Bernabéu|Octavos de final
+23|28|27|0|0|2023-12-24|Anfield|Fase de grupos
+24|29|6|3|2|2022-09-07|El Campín|Amistoso
+25|42|5|2|1|2024-06-05|Centenario|Octavos de final
+26|45|24|4|3|2019-05-08|La Bombonera|Fase de grupos
+27|39|43|3|1|2020-04-01|El Campín|Semifinal
+28|14|23|2|2|2022-04-26|San Siro|Final
+29|10|2|1|2|2026-04-16|Santiago Bernabéu|Semifinal
+30|1|16|0|1|2024-08-02|Allianz Arena|Fase de grupos
+31|33|34|3|3|2024-03-27|Allianz Arena|Final
+32|40|8|2|0|2018-07-06|Parc des Princes|Amistoso
+33|21|46|1|2|2018-11-15|El Campín|Fase de grupos
+34|49|45|2|1|2025-08-17|Azteca|Fase de grupos
+35|25|37|0|1|2024-02-02|Monumental|Final
+36|12|53|2|0|2020-07-21|Santiago Bernabéu|Final
+37|44|47|1|1|2019-04-17|La Bombonera|Eliminatorias
+38|19|50|3|2|2021-10-02|San Siro|Octavos de final
+39|30|31|2|1|2018-07-11|Old Trafford|Semifinal
+40|9|52|1|0|2024-03-14|Signal Iduna Park|Fase de grupos
+41|3|48|0|2|2021-05-20|Allianz Arena|Fase de grupos
+42|32|13|1|1|2025-08-10|Camp Nou|Final
+43|22|38|2|3|2022-08-20|El Campín|Fase de grupos
+44|36|7|1|2|2023-03-10|Nacional de Lima|Cuartos de final
+45|15|35|0|0|2026-08-22|Camp Nou|Eliminatorias
+46|26|28|2|1|2021-07-15|Mineirão|Semifinal
+47|29|41|1|2|2018-12-08|Allianz Arena|Final
+48|6|47|2|2|2022-04-20|Parc des Princes|Final
+49|42|54|4|1|2025-02-19|Santiago Bernabéu|Cuartos de final
+50|5|55|1|0|2020-07-26|Old Trafford|Cuartos de final
+51|18|43|3|2|2018-09-21|Centenario|Semifinal
+52|51|3|1|1|2019-11-12|La Bombonera|Eliminatorias
+53|39|49|2|2|2021-06-08|San Siro|Cuartos de final
+54|45|2|5|1|2019-11-16|Parc des Princes|Eliminatorias
+55|24|10|3|0|2022-09-19|Signal Iduna Park|Amistoso
+56|23|1|1|1|2025-06-25|Allianz Arena|Octavos de final
+57|16|14|2|1|2023-03-17|Parc des Princes|Octavos de final
+58|34|46|2|2|2023-07-09|Camp Nou|Amistoso
+59|33|8|1|1|2023-04-12|Old Trafford|Semifinal
+60|40|21|3|2|2024-06-15|Allianz Arena|Eliminatorias
+61|20|44|2|0|2018-03-14|Allianz Arena|Eliminatorias
+62|25|12|1|2|2021-02-23|Old Trafford|Eliminatorias
+63|37|19|0|1|2026-09-05|Parc des Princes|Semifinal
+64|50|41|2|2|2020-07-05|San Siro|Amistoso
+65|30|9|3|2|2024-04-22|Old Trafford|Semifinal
+66|31|52|1|1|2025-06-04|Metropolitano de Barranquilla|Semifinal
+67|27|28|2|2|2023-01-24|San Siro|Final
+68|7|26|1|0|2021-05-02|Maracaná|Octavos de final
+69|15|35|2|1|2023-05-11|Old Trafford|Final
+70|22|11|3|1|2025-12-27|El Campín|Eliminatorias
+71|38|36|2|2|2022-04-08|Camp Nou|Cuartos de final
+72|48|32|1|0|2024-03-17|Centenario|Final
+73|13|3|2|1|2024-04-24|Monumental|Cuartos de final
+74|29|6|0|1|2018-11-26|Anfield|Eliminatorias
+75|42|5|2|2|2023-10-10|Anfield|Cuartos de final
+76|46|33|3|1|2022-08-10|Signal Iduna Park|Cuartos de final
+77|8|34|1|2|2019-05-10|Centenario|Semifinal
+78|21|40|2|2|2021-11-20|San Siro|Octavos de final
+79|45|39|4|2|2021-08-18|Allianz Arena|Final
+80|24|49|2|1|2021-10-27|Centenario|Final
+81|2|16|1|1|2021-08-05|Centenario|Octavos de final
+82|10|23|0|2|2021-12-18|Maracaná|Amistoso
+83|1|14|1|3|2023-07-18|Parc des Princes|Octavos de final
+84|43|18|2|2|2024-02-04|Mineirão|Octavos de final
+85|51|48|1|0|2026-07-05|El Campín|Semifinal
+86|3|32|3|1|2025-04-01|Santiago Bernabéu|Fase de grupos
+87|13|56|1|0|2018-10-11|El Campín|Cuartos de final
+88|25|37|2|2|2021-12-25|Signal Iduna Park|Octavos de final
+89|12|19|3|1|2022-01-05|Centenario|Eliminatorias
+90|50|47|1|0|2023-08-10|Santiago Bernabéu|Semifinal
+91|41|29|2|1|2023-05-16|Anfield|Final
+92|6|44|1|1|2022-10-13|Azteca|Amistoso
+93|30|31|2|2|2020-01-28|Monumental|Final
+94|9|27|1|0|2023-09-09|Wembley|Semifinal
+95|28|7|1|1|2022-02-22|La Bombonera|Octavos de final
+96|26|15|0|2|2018-08-21|Maracaná|Eliminatorias
+97|35|22|2|3|2018-09-08|San Siro|Cuartos de final
+98|11|38|1|2|2020-05-02|Mineirão|Eliminatorias
+99|36|48|2|1|2026-09-05|Azteca|Final
+100|32|13|0|2|2018-04-01|Mineirão|Fase de grupos
+101|44|1|3|1|2025-07-22|Wembley|Final
+102|28|37|3|4|2019-02-09|El Campín|Semifinal
+103|2|6|2|1|2018-06-27|Camp Nou|Octavos de final
+104|25|15|2|5|2023-11-07|Parc des Princes|Cuartos de final
+105|46|50|3|1|2024-02-02|Signal Iduna Park|Semifinal
+106|22|52|1|0|2020-04-14|Mineirão|Amistoso
+107|13|9|5|4|2018-10-24|Signal Iduna Park|Eliminatorias
+108|18|11|2|4|2024-02-12|Parc des Princes|Amistoso
+109|56|9|5|0|2022-12-16|Allianz Arena|Fase de grupos
+110|41|29|2|4|2024-11-17|Centenario|Semifinal
+111|17|11|2|5|2023-02-21|Centenario|Octavos de final
+112|56|49|1|4|2021-02-07|Parc des Princes|Fase de grupos
+113|27|44|0|4|2023-06-05|Azteca|Semifinal
+114|15|17|3|1|2025-09-08|Signal Iduna Park|Octavos de final
+115|53|4|0|2|2020-07-17|La Bombonera|Octavos de final
+116|31|50|0|0|2022-05-02|Camp Nou|Amistoso
+117|12|1|3|1|2022-02-10|El Campín|Semifinal
+118|40|41|0|1|2026-06-22|Metropolitano de Barranquilla|Octavos de final
+119|49|55|1|5|2023-03-03|Parc des Princes|Semifinal
+120|11|31|3|0|2023-10-07|Centenario|Final
+121|2|47|2|1|2025-08-21|Wembley|Fase de grupos
+122|8|33|2|3|2023-07-05|Allianz Arena|Semifinal
+123|14|19|3|5|2019-08-24|Azteca|Amistoso
+124|35|15|0|2|2024-01-13|Anfield|Amistoso
+125|6|2|2|0|2024-02-08|Old Trafford|Amistoso
+126|18|3|1|1|2023-02-23|Santiago Bernabéu|Final
+127|36|27|3|0|2020-10-23|Centenario|Amistoso
+128|56|39|2|4|2022-06-23|Wembley|Cuartos de final
+129|38|27|0|3|2025-01-05|Nacional de Lima|Cuartos de final
+130|55|33|1|1|2026-12-13|El Campín|Amistoso
+131|42|13|3|4|2025-09-24|Maracaná|Cuartos de final
+132|33|24|2|4|2019-04-15|Mineirão|Cuartos de final
+133|19|44|1|3|2021-06-23|Old Trafford|Eliminatorias
+134|19|16|3|0|2026-09-02|Old Trafford|Cuartos de final
+135|26|41|0|3|2023-08-17|Monumental|Cuartos de final
+136|25|53|0|2|2026-03-11|Santiago Bernabéu|Semifinal
+137|31|43|2|4|2018-01-01|Centenario|Cuartos de final
+138|30|56|1|1|2022-02-09|Camp Nou|Amistoso
+139|2|22|5|3|2025-05-26|Allianz Arena|Cuartos de final
+140|13|18|0|0|2021-04-19|Azteca|Final
+141|33|11|0|5|2019-06-07|Monumental|Semifinal
+142|56|3|5|5|2026-04-01|La Bombonera|Octavos de final
+143|19|23|1|1|2022-02-19|Santiago Bernabéu|Cuartos de final
+144|37|38|1|2|2026-08-26|Metropolitano de Barranquilla|Fase de grupos
+145|30|6|3|2|2022-05-05|Signal Iduna Park|Cuartos de final
+146|56|5|0|3|2020-04-20|Wembley|Octavos de final
+147|55|22|1|5|2024-03-27|Parc des Princes|Amistoso
+148|39|7|2|0|2025-10-18|Old Trafford|Octavos de final
+149|52|8|1|4|2026-06-10|Parc des Princes|Cuartos de final
+150|35|53|3|2|2021-05-02|Allianz Arena|Cuartos de final
+151|46|12|5|5|2023-10-04|El Campín|Cuartos de final
+152|35|36|0|2|2024-05-08|Azteca|Final
+153|8|20|2|2|2023-02-03|La Bombonera|Final
+154|47|8|4|5|2020-12-17|Anfield|Amistoso
+155|20|22|1|0|2018-02-06|Anfield|Final
+156|53|45|2|4|2018-06-05|Signal Iduna Park|Eliminatorias
+157|54|4|0|2|2020-03-04|Signal Iduna Park|Semifinal
+158|44|34|0|5|2024-01-02|Parc des Princes|Cuartos de final
+159|11|51|3|4|2026-12-15|San Siro|Fase de grupos
+160|34|29|5|5|2019-10-01|San Siro|Final
+161|47|12|3|4|2022-11-07|El Campín|Octavos de final
+162|25|23|1|3|2025-06-09|Allianz Arena|Cuartos de final
+163|56|54|0|5|2025-07-08|Signal Iduna Park|Cuartos de final
+164|6|49|3|5|2023-11-13|Wembley|Eliminatorias
+165|20|24|4|2|2018-01-27|Old Trafford|Semifinal
+166|42|14|0|4|2025-05-28|Old Trafford|Final
+167|54|10|0|2|2025-11-09|San Siro|Fase de grupos
+168|29|38|3|0|2026-09-07|Azteca|Eliminatorias
+169|42|40|0|3|2024-08-27|El Campín|Fase de grupos
+170|31|55|0|1|2021-01-14|Camp Nou|Amistoso
+171|40|14|1|2|2021-12-10|San Siro|Final
+172|13|53|1|5|2021-11-27|El Campín|Final
+173|45|19|3|4|2026-08-23|Wembley|Octavos de final
+174|3|55|3|3|2024-09-25|Maracaná|Fase de grupos
+175|28|41|5|0|2018-03-17|Azteca|Final
+176|21|26|3|0|2020-01-15|Nacional de Lima|Cuartos de final
+177|44|22|0|5|2025-12-06|Parc des Princes|Fase de grupos
+178|52|41|3|5|2020-05-03|Monumental|Eliminatorias
+179|49|28|0|3|2023-05-27|Old Trafford|Eliminatorias
+180|35|53|4|3|2023-03-16|Wembley|Final
+181|26|22|0|5|2018-08-06|Santiago Bernabéu|Octavos de final
+182|16|10|2|2|2026-12-16|Camp Nou|Cuartos de final
+183|50|32|1|1|2026-07-05|Azteca|Octavos de final
+184|21|23|2|2|2026-01-21|Nacional de Lima|Semifinal
+185|50|55|1|3|2022-11-10|San Siro|Semifinal
+186|53|4|4|5|2019-08-01|San Siro|Fase de grupos
+187|20|1|3|1|2022-08-22|Camp Nou|Amistoso
+188|34|35|4|1|2022-05-05|Nacional de Lima|Amistoso
+189|10|21|2|4|2022-04-24|Mineirão|Final
+190|49|51|3|5|2018-07-07|El Campín|Semifinal
+191|6|40|0|0|2026-04-05|Maracaná|Semifinal
+192|49|36|2|4|2026-10-02|Signal Iduna Park|Semifinal
+193|29|27|0|0|2021-02-12|Santiago Bernabéu|Amistoso
+194|21|8|5|3|2026-06-22|Wembley|Fase de grupos
+195|3|51|3|5|2020-10-28|Camp Nou|Final
+196|31|26|5|5|2022-05-05|Centenario|Octavos de final
+197|31|55|0|3|2019-12-05|Wembley|Fase de grupos
+198|47|30|1|1|2023-09-14|Mineirão|Fase de grupos
+199|44|48|4|5|2023-12-07|Nacional de Lima|Semifinal
+200|46|26|2|3|2021-04-14|Signal Iduna Park|Eliminatorias
+201|2|1|0|1|2022-12-05|Santiago Bernabéu|Amistoso
+202|12|31|2|5|2024-11-04|La Bombonera|Cuartos de final
+203|2|52|1|4|2023-02-05|Monumental|Final
+204|22|32|5|1|2024-04-13|El Campín|Amistoso
+205|46|30|4|0|2018-03-08|Maracaná|Fase de grupos
+206|45|31|0|3|2018-11-05|Maracaná|Octavos de final
+207|41|8|2|4|2026-06-13|Anfield|Fase de grupos
+208|11|18|1|4|2024-06-06|San Siro|Cuartos de final
+209|48|13|5|5|2025-09-12|Azteca|Semifinal
+210|52|10|1|5|2020-07-16|Azteca|Fase de grupos
+211|4|13|4|5|2019-01-03|Monumental|Eliminatorias
+212|46|22|0|3|2024-02-04|La Bombonera|Fase de grupos
+213|46|1|2|4|2018-05-26|El Campín|Amistoso
+214|34|14|3|2|2019-11-05|Maracaná|Amistoso
+215|25|23|0|3|2022-09-10|Mineirão|Semifinal
+216|53|49|1|3|2020-01-13|Old Trafford|Semifinal
+217|39|38|2|4|2022-08-02|Azteca|Fase de grupos
+218|27|47|0|2|2025-11-06|Anfield|Cuartos de final
+219|25|47|2|2|2022-06-27|El Campín|Cuartos de final
+220|32|35|2|3|2025-12-06|Santiago Bernabéu|Eliminatorias
+221|4|10|4|5|2021-10-19|Signal Iduna Park|Octavos de final
+222|52|42|5|4|2021-12-09|Anfield|Final
+223|16|55|3|5|2021-07-09|El Campín|Final
+224|25|52|4|5|2018-01-19|La Bombonera|Eliminatorias
+225|45|13|0|5|2021-11-01|La Bombonera|Eliminatorias
+226|33|5|4|5|2022-03-27|Parc des Princes|Semifinal
+227|41|7|1|3|2018-11-06|Mineirão|Eliminatorias
+228|1|14|2|3|2025-04-17|Metropolitano de Barranquilla|Final
+229|32|11|4|2|2018-10-06|Parc des Princes|Amistoso
+230|40|49|1|5|2019-10-23|Centenario|Fase de grupos
+231|52|6|3|4|2020-07-07|Nacional de Lima|Fase de grupos
+232|5|11|3|5|2025-03-26|Wembley|Final
+233|47|14|0|0|2023-06-27|Azteca|Fase de grupos
+234|8|43|5|0|2023-03-04|Parc des Princes|Final
+235|6|7|5|2|2018-05-01|La Bombonera|Final
+236|30|20|1|5|2018-04-14|Santiago Bernabéu|Final
+237|18|29|5|5|2018-12-14|Signal Iduna Park|Final
+238|35|25|3|4|2021-11-15|El Campín|Semifinal
+239|54|17|5|2|2018-02-18|San Siro|Final
+240|41|54|0|3|2021-11-10|San Siro|Octavos de final
+241|4|53|1|0|2024-03-16|Anfield|Amistoso
+242|14|7|1|2|2023-05-21|La Bombonera|Fase de grupos
+243|3|11|0|5|2019-02-24|La Bombonera|Amistoso
+244|23|21|1|4|2024-09-17|Santiago Bernabéu|Final
+245|42|18|3|4|2024-12-01|Camp Nou|Eliminatorias
+246|52|42|3|5|2020-06-05|San Siro|Cuartos de final
+247|51|33|1|1|2025-06-11|Metropolitano de Barranquilla|Eliminatorias
+248|35|45|4|3|2025-07-26|Monumental|Final
+249|39|51|4|5|2020-05-01|Azteca|Cuartos de final
+250|33|43|3|4|2021-11-08|Metropolitano de Barranquilla|Cuartos de final
+251|17|16|5|1|2021-08-03|Nacional de Lima|Amistoso
+252|43|32|0|0|2023-10-11|Wembley|Cuartos de final
+253|4|1|4|0|2021-07-21|Centenario|Semifinal
+254|21|31|5|2|2023-10-04|Monumental|Semifinal
+255|9|52|0|0|2026-01-04|Signal Iduna Park|Eliminatorias
+256|23|5|0|3|2022-06-10|Azteca|Semifinal
+257|42|44|1|3|2026-10-28|Maracaná|Cuartos de final
+258|55|30|0|5|2026-01-16|Parc des Princes|Fase de grupos
+259|18|54|4|0|2019-08-15|Signal Iduna Park|Amistoso
+260|15|26|3|4|2024-05-20|Old Trafford|Fase de grupos
+261|24|28|0|0|2018-01-09|Centenario|Eliminatorias
+262|35|23|1|0|2023-06-02|Monumental|Cuartos de final
+263|52|3|5|3|2023-07-03|Signal Iduna Park|Amistoso
+264|39|11|4|4|2024-04-25|Allianz Arena|Amistoso
+265|23|42|4|5|2022-12-28|Camp Nou|Octavos de final
+266|19|1|3|5|2019-12-21|El Campín|Octavos de final
+267|25|4|4|4|2020-03-08|Old Trafford|Octavos de final
+268|20|28|2|0|2021-03-01|Wembley|Eliminatorias
+269|53|40|3|2|2020-10-22|San Siro|Semifinal
+270|13|2|3|2|2019-08-17|Parc des Princes|Octavos de final
+271|34|50|2|1|2020-12-25|Santiago Bernabéu|Octavos de final
+272|6|43|2|3|2023-01-12|Maracaná|Fase de grupos
+273|7|42|1|5|2025-06-25|Camp Nou|Fase de grupos
+274|28|46|0|1|2025-06-23|Centenario|Eliminatorias
+275|22|47|4|1|2021-04-01|Nacional de Lima|Fase de grupos
+276|10|52|1|4|2020-07-19|Signal Iduna Park|Cuartos de final
+277|21|7|1|0|2018-06-24|Azteca|Semifinal
+278|16|36|4|2|2026-10-14|Anfield|Amistoso
+279|45|23|1|5|2020-02-24|Camp Nou|Fase de grupos
+280|35|46|0|1|2026-07-18|Metropolitano de Barranquilla|Octavos de final
+281|32|12|4|5|2022-02-15|Allianz Arena|Octavos de final
+282|48|10|3|1|2022-03-10|Maracaná|Amistoso
+283|17|38|0|3|2024-08-14|Camp Nou|Cuartos de final
+284|22|27|4|0|2019-04-21|El Campín|Cuartos de final
+285|21|36|5|5|2026-09-13|Santiago Bernabéu|Fase de grupos
+286|42|23|5|1|2019-12-28|San Siro|Octavos de final
+287|1|34|5|0|2021-06-05|Wembley|Cuartos de final
+288|4|19|3|4|2022-03-02|Nacional de Lima|Amistoso
+289|17|42|3|2|2023-04-13|Santiago Bernabéu|Fase de grupos
+290|34|2|5|5|2018-11-22|Maracaná|Amistoso
+291|42|25|0|3|2025-12-17|Anfield|Semifinal
+292|6|7|1|4|2023-07-05|Monumental|Semifinal
+293|3|12|1|3|2024-11-06|San Siro|Cuartos de final
+294|8|21|1|2|2020-10-21|La Bombonera|Semifinal
+295|47|29|1|2|2019-06-23|Old Trafford|Eliminatorias
+296|40|8|1|3|2023-06-24|Santiago Bernabéu|Cuartos de final
+297|17|29|5|3|2022-06-10|Allianz Arena|Amistoso
+298|39|45|2|5|2018-04-10|Azteca|Cuartos de final
+299|27|1|3|4|2025-07-11|Azteca|Amistoso
+300|21|9|0|4|2018-12-24|Mineirão|Octavos de final
+301|51|32|4|5|2018-03-27|Monumental|Cuartos de final
+302|4|32|3|3|2022-08-21|Allianz Arena|Fase de grupos
+303|45|15|3|2|2025-08-08|San Siro|Semifinal
+304|12|43|0|2|2022-06-06|Metropolitano de Barranquilla|Octavos de final
+305|34|3|3|0|2019-05-10|Camp Nou|Eliminatorias
+306|14|12|3|1|2024-08-18|Nacional de Lima|Eliminatorias
+307|33|46|0|3|2026-10-06|Santiago Bernabéu|Octavos de final
+308|53|39|0|2|2022-04-04|Mineirão|Eliminatorias
+309|42|7|2|2|2023-11-14|Signal Iduna Park|Eliminatorias
+310|42|11|3|1|2023-07-15|Santiago Bernabéu|Eliminatorias
+311|35|53|0|2|2024-10-05|Maracaná|Cuartos de final
+312|22|11|2|2|2019-11-05|Allianz Arena|Cuartos de final
+313|36|16|0|2|2018-11-14|Maracaná|Final
+314|14|31|4|4|2019-07-17|La Bombonera|Cuartos de final
+315|4|36|1|3|2026-08-24|La Bombonera|Amistoso
+316|17|56|2|1|2018-08-18|Camp Nou|Semifinal
+317|23|35|1|2|2022-12-13|Azteca|Eliminatorias
+318|31|46|1|2|2025-09-22|Azteca|Semifinal
+319|28|32|4|0|2026-07-24|Metropolitano de Barranquilla|Amistoso
+320|43|21|0|2|2019-06-25|Anfield|Octavos de final
+321|10|53|5|2|2026-01-07|El Campín|Semifinal
+322|49|7|0|2|2018-09-26|Azteca|Cuartos de final
+323|6|5|1|1|2022-07-13|San Siro|Eliminatorias
+324|56|23|0|5|2024-12-27|Old Trafford|Octavos de final
+325|20|43|1|2|2026-03-01|Anfield|Cuartos de final
+326|35|8|3|0|2020-12-11|Monumental|Fase de grupos
+327|11|36|0|2|2020-08-22|Old Trafford|Amistoso
+328|55|24|2|3|2025-09-05|Mineirão|Semifinal
+329|34|39|0|0|2018-08-05|Signal Iduna Park|Octavos de final
+330|49|25|2|4|2018-08-24|Signal Iduna Park|Final
+331|51|16|0|0|2020-01-06|Monumental|Final
+332|26|24|0|2|2021-04-23|Nacional de Lima|Amistoso
+333|36|28|5|3|2025-06-19|Mineirão|Eliminatorias
+334|44|52|0|2|2019-10-23|Maracaná|Semifinal
+335|30|10|5|0|2022-02-27|Metropolitano de Barranquilla|Final
+336|22|18|1|1|2024-07-11|Metropolitano de Barranquilla|Amistoso
+337|17|19|0|3|2025-02-21|Azteca|Fase de grupos
+338|3|44|4|2|2021-09-22|Monumental|Cuartos de final
+339|6|42|2|5|2022-08-21|Maracaná|Cuartos de final
+340|45|47|1|4|2026-08-06|Centenario|Final
+341|38|17|4|1|2020-06-16|Santiago Bernabéu|Cuartos de final
+342|47|14|1|4|2025-01-13|Mineirão|Fase de grupos
+343|45|50|3|1|2020-06-11|Metropolitano de Barranquilla|Cuartos de final
+344|17|20|5|2|2025-03-02|La Bombonera|Final
+345|1|21|0|1|2025-08-02|Allianz Arena|Fase de grupos
+346|53|11|0|4|2022-08-27|Wembley|Semifinal
+347|52|3|5|0|2019-04-20|Wembley|Cuartos de final
+348|20|27|1|1|2020-03-20|Parc des Princes|Final
+349|48|33|0|4|2019-07-10|Mineirão|Fase de grupos
+350|50|13|2|3|2022-06-13|Parc des Princes|Cuartos de final
+351|13|18|0|5|2023-11-19|Old Trafford|Octavos de final
+352|16|45|3|5|2025-11-17|Nacional de Lima|Semifinal
+353|47|35|1|2|2024-10-24|Allianz Arena|Final
+354|15|14|2|5|2023-04-02|Centenario|Cuartos de final
+355|29|30|4|2|2025-02-17|Signal Iduna Park|Cuartos de final
+356|50|14|1|5|2026-09-04|Mineirão|Eliminatorias
+357|46|18|0|1|2020-10-10|Nacional de Lima|Amistoso
+358|24|29|3|4|2024-02-26|Metropolitano de Barranquilla|Final
+359|48|10|4|1|2019-01-08|Wembley|Eliminatorias
+360|23|46|3|4|2020-07-03|Metropolitano de Barranquilla|Cuartos de final
+361|53|43|4|4|2021-01-08|El Campín|Semifinal
+362|52|55|2|2|2024-04-21|Signal Iduna Park|Final
+363|29|14|2|4|2020-10-22|Parc des Princes|Octavos de final
+364|44|45|2|3|2024-10-21|Nacional de Lima|Eliminatorias
+365|17|51|3|3|2026-12-15|Anfield|Semifinal
+366|50|33|2|0|2019-10-16|Parc des Princes|Octavos de final
+367|25|32|3|2|2018-02-18|Metropolitano de Barranquilla|Semifinal
+368|41|14|0|1|2020-12-12|Signal Iduna Park|Final
+369|35|43|4|1|2024-09-09|Parc des Princes|Amistoso
+370|17|3|5|2|2024-06-25|Old Trafford|Semifinal
+371|15|45|1|1|2023-08-12|Monumental|Amistoso
+372|40|35|0|4|2026-03-07|Nacional de Lima|Amistoso
+373|16|45|0|2|2026-10-04|Nacional de Lima|Semifinal
+374|27|46|1|2|2021-02-16|Monumental|Amistoso
+375|20|30|3|5|2024-01-16|Parc des Princes|Fase de grupos
+376|33|23|4|5|2024-11-24|La Bombonera|Amistoso
+377|38|2|4|0|2025-07-24|Parc des Princes|Octavos de final
+378|55|21|1|1|2021-08-11|Allianz Arena|Fase de grupos
+379|50|9|3|4|2025-12-15|Azteca|Eliminatorias
+380|23|41|0|0|2024-12-16|Signal Iduna Park|Fase de grupos
+381|21|41|1|3|2025-01-01|Parc des Princes|Octavos de final
+382|39|43|0|1|2020-06-22|Signal Iduna Park|Octavos de final
+383|53|22|4|3|2022-05-28|Allianz Arena|Fase de grupos
+384|53|2|5|4|2024-02-21|Nacional de Lima|Eliminatorias
+385|53|33|2|0|2019-03-16|La Bombonera|Fase de grupos
+386|54|55|2|3|2025-06-23|Santiago Bernabéu|Semifinal
+387|16|24|3|2|2023-01-15|Camp Nou|Eliminatorias
+388|1|19|3|0|2026-11-14|Monumental|Octavos de final
+389|53|43|2|5|2025-04-12|El Campín|Fase de grupos
+390|5|47|3|4|2022-11-26|Wembley|Semifinal
+391|17|35|0|1|2018-08-08|Anfield|Cuartos de final
+392|2|15|0|4|2026-09-01|Nacional de Lima|Amistoso
+393|27|41|5|3|2021-12-15|Santiago Bernabéu|Fase de grupos
+394|36|2|2|5|2024-08-12|Anfield|Semifinal
+395|42|38|1|4|2022-06-07|La Bombonera|Final
+396|3|33|2|4|2020-07-21|Monumental|Amistoso
+397|30|36|3|5|2026-06-11|Old Trafford|Final
+398|53|15|5|5|2023-05-27|Signal Iduna Park|Octavos de final
+399|55|44|3|2|2023-06-25|Mineirão|Eliminatorias
+400|17|19|3|3|2019-11-23|Centenario|Eliminatorias

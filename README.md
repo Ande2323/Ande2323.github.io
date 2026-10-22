@@ -12,6 +12,7 @@ publica.
 index.html        Todo el contenido del sitio
 styles.css        Estilos
 assets/           Imágenes (avatar, foto de perfil)
+evidencias/       Archivos de los trabajos, una carpeta por categoría
 GUION-VIDEO.md    Guion y pasos para grabar y subir el video
 .nojekyll         Evita que GitHub Pages procese el sitio con Jekyll
 ```
@@ -38,9 +39,25 @@ En `index.html`, en la sección Presentación, hay un bloque comentado con el
 
 ### Agregar una evidencia
 
-Cada categoría es un `<li class="card">` en la sección Evidencias. Para
-publicar un entregable, reemplaza el `<span class="pill">Próximamente</span>`
-por un enlace al archivo o al repositorio correspondiente.
+1. Copia los archivos a `evidencias/<categoría>/<nombre-del-trabajo>/`.
+2. En `index.html`, dentro del `<div class="evgroup">` que corresponda, duplica
+   un `<article class="ev">` y cambia la fecha, el título, la descripción y la
+   lista de `<li>` dentro de `<ul class="files">`.
+3. Sube el contador de la categoría en su `<a class="chip">`.
+
+Para una categoría que aún está vacía (`SQL`, `Proyecto`), reemplaza el
+`<p class="evgroup__vacio">` por los `<article class="ev">` correspondientes.
+
+**No publiques credenciales.** Nada de wallets de Oracle, `tnsnames.ora`,
+archivos `.properties` con contraseñas ni cadenas de conexión: este repositorio
+es público.
+
+### Convertir un documento Markdown en página web
+
+Las evidencias en `.md` se publican como página con estilos propios. El script
+que generó `evidencias/modelado/taller-eer-puerto/index.html` usa
+[marked](https://www.npmjs.com/package/marked); los estilos ya están en
+`styles.css` bajo la clase `.doc`.
 
 ## Ver el sitio en local
 
